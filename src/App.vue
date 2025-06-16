@@ -6,6 +6,7 @@ import ExperienciaComponente from './components/ExperienciaComponente.vue';
 import ProyectosComponente from './components/ProyectosComponente.vue';
 import HabilidadesComponente from './components/HabilidadesComponente.vue';
 import InteresesComponente from './components/InteresesComponente.vue';
+import AlumnosComponente from './components/AlumnosComponente.vue';
 </script>
 
 <template>
@@ -41,6 +42,10 @@ import InteresesComponente from './components/InteresesComponente.vue';
             <!--Componente Intereses-->
             <h2>Intereses</h2>
             <InteresesComponente />
+        </section>
+        <section id="alumnos">
+            <h2>Alumnos</h2>
+            <AlumnosComponente />
         </section>
     </main>
     <footer>
